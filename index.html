@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iris Lens Support & Privacy Policy</title>
+  <meta name="description" content="Support and privacy policy for Iris Lens." />
+  <style>
+    :root {
+      --bg: #0b0d12;
+      --card: rgba(255,255,255,0.08);
+      --text: #eef2f7;
+      --muted: #b8c0cc;
+      --accent: #8ab4ff;
+      --border: rgba(255,255,255,0.12);
+      --shadow: 0 10px 30px rgba(0,0,0,0.28);
+      --radius: 18px;
+      --max: 920px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(86, 156, 255, 0.18), transparent 30%),
+        radial-gradient(circle at top right, rgba(130, 250, 170, 0.10), transparent 24%),
+        linear-gradient(180deg, #0b0d12 0%, #11151d 100%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+
+    .wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    .hero {
+      padding: 52px 0 24px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 8px 12px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: rgba(255,255,255,0.05);
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(34px, 6vw, 52px);
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+    }
+
+    .lead {
+      max-width: 720px;
+      color: var(--muted);
+      font-size: 18px;
+      margin: 0;
+    }
+
+    .nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 22px;
+    }
+
+    .nav a {
+      padding: 10px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.04);
+      color: var(--text);
+      font-size: 14px;
+    }
+
+    .grid {
+      display: grid;
+      gap: 18px;
+      margin-top: 24px;
+    }
+
+    .card {
+      background: var(--card);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 22px;
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 24px;
+      letter-spacing: -0.02em;
+    }
+
+    h3 {
+      margin: 20px 0 8px;
+      font-size: 17px;
+    }
+
+    p, li {
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin: 10px 0 0;
+    }
+
+    .contact-box {
+      display: grid;
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .contact-item {
+      padding: 14px 16px;
+      border-radius: 14px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid var(--border);
+    }
+
+    .muted { color: var(--muted); }
+
+    footer {
+      padding: 28px 0 42px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (min-width: 760px) {
+      .grid.two {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div class="badge">Iris Lens</div>
+      <h1>Support & Privacy Policy</h1>
+      <p class="lead">
+        Iris Lens is a camera-based accessibility tool that helps users distinguish colors more easily in real time using vision modes and contrast enhancement.
+      </p>
+      <nav class="nav" aria-label="Page sections">
+        <a href="#support">Support</a>
+        <a href="#privacy">Privacy Policy</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </section>
+
+    <section id="support" class="grid two">
+      <article class="card">
+        <h2>Support</h2>
+        <p>
+          If you need help, want to report a bug, or would like to share feedback about Iris Lens, please contact support using the email below.
+        </p>
+        <ul>
+          <li>Describe the issue clearly.</li>
+          <li>Include your device model and iOS/iPadOS version.</li>
+          <li>Add a screenshot if it helps explain the problem.</li>
+        </ul>
+      </article>
+
+      <article id="contact" class="card">
+        <h2>Contact</h2>
+        <div class="contact-box">
+          <div class="contact-item">
+            <strong>Email</strong><br />
+            <a href="mailto:tonybonny2001@gmail.com">tonybonny2001@gmail.com</a>
+          </div>
+          <div class="contact-item">
+            <strong>App</strong><br />
+            Iris Lens
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="privacy" class="card" style="margin-top: 18px;">
+      <h2>Privacy Policy</h2>
+      <p>
+        Iris Lens does not collect, store, transmit, or share personal data.
+      </p>
+
+      <h3>How the app works</h3>
+      <p>
+        Iris Lens uses the device camera to process images in real time and enhance color visibility through vision modes and contrast adjustments.
+        All image processing happens on-device.
+      </p>
+
+      <h3>Data collection</h3>
+      <p>
+        Iris Lens does not create user accounts and does not collect analytics, advertising identifiers, location data, contact information, or camera content.
+      </p>
+
+      <h3>Photos access</h3>
+      <p>
+        If you choose to save a snapshot, the app requests permission only to save the image to your Photos library.
+        Iris Lens does not upload or share saved images unless you explicitly choose to do so through iOS sharing features.
+      </p>
+
+      <h3>Third-party services</h3>
+      <p>
+        Iris Lens does not use third-party advertising or tracking services.
+      </p>
+
+      <h3>Your choices</h3>
+      <p>
+        You can revoke camera or photo access at any time in iOS Settings.
+      </p>
+
+      <h3>Changes to this policy</h3>
+      <p>
+        This page may be updated in the future to reflect changes to the app. Continued use of Iris Lens after an update means you accept the revised policy.
+      </p>
+
+      <h3>Contact</h3>
+      <p>
+        For privacy-related questions, email <a href="mailto:tonybonny2001@gmail.com">tonybonny2001@gmail.com</a>.
+      </p>
+    </section>
+
+    <section id="faq" class="card" style="margin-top: 18px;">
+      <h2>FAQ</h2>
+
+      <h3>The camera is not working. What should I do?</h3>
+      <p>
+        Go to <span class="muted">Settings → Privacy & Security → Camera</span> and make sure Iris Lens has permission to access the camera.
+      </p>
+
+      <h3>Why can’t I save snapshots?</h3>
+      <p>
+        Go to <span class="muted">Settings → Privacy & Security → Photos</span> and allow Iris Lens to add photos.
+      </p>
+
+      <h3>Does Iris Lens work offline?</h3>
+      <p>
+        Yes. Iris Lens works locally on your device and processes images on-device.
+      </p>
+    </section>
+
+    <footer>
+      Last updated: January 2026
+    </footer>
+  </main>
+</body>
+</html>
