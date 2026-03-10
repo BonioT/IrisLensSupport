@@ -10,11 +10,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg-color: #000000;
-            --text-color: #ffffff;
-            --text-secondary: #a1a1aa;
-            --glass-bg: rgba(255, 255, 255, 0.05);
-            --glass-border: rgba(255, 255, 255, 0.1);
+            --bg-color: #f8f7ff;
+            --accent-color: #a78bfa;
+            --text-color: #1f2937;
+            --text-secondary: #6b7280;
+            --glass-bg: rgba(255, 255, 255, 0.7);
+            --glass-border: rgba(167, 139, 250, 0.2);
         }
 
         * {
@@ -39,12 +40,14 @@
         h1 {
             font-size: 3rem;
             margin-bottom: 2rem;
+            color: var(--text-color);
         }
 
         h2 {
             font-size: 1.5rem;
             margin-top: 2rem;
             margin-bottom: 1rem;
+            color: var(--accent-color);
         }
 
         p {
@@ -55,9 +58,18 @@
         .back-link {
             display: inline-block;
             margin-bottom: 2rem;
-            color: #ffffff;
+            color: var(--accent-color);
             text-decoration: none;
             font-weight: 600;
+        }
+
+        footer {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--glass-border);
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
         }
     </style>
 </head>
@@ -70,15 +82,15 @@
 
         <section>
             <h2>Your Privacy Matters</h2>
-            <p>The IRIS app was built with a privacy-first approach. We believe that your visual data and personal
-                information should belong to you and nobody else.</p>
+            <p>The IRIS app was built with a privacy-first approach by <strong>Frank&Friends</strong>. We believe that
+                your visual data and personal information should belong to you and nobody else.</p>
         </section>
 
         <section>
             <h2>No Data Collection</h2>
             <p>IRIS does <strong>not</strong> collect, store, or transmit any personal data, images, or video streams.
-                All image processing happens locally on your device's GPU in real-time. Nothing ever leaves your device.
-            </p>
+                All image processing happens locally on your device's GPU in real-time. Nothing ever leaves your device
+                or is seen by the developers.</p>
         </section>
 
         <section>
@@ -96,8 +108,13 @@
 
         <section>
             <h2>Contact</h2>
-            <p>If you have any questions about this policy, feel free to contact us at support@irisapp.com.</p>
+            <p>If you have any questions about this policy, feel free to contact us at
+                <strong>tonybonny2001@gmail.com</strong>.</p>
         </section>
+
+        <footer>
+            <p>&copy; 2026 Frank&Friends (Antonio, Giulia, Francesco, Akbar, Antonella). All rights reserved.</p>
+        </footer>
     </div>
 </body>
 
